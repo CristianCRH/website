@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/main.css'>
+    <link rel="stylesheet" type="text/css" href="estilos/circle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='js/main.js'></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav">
+         
+                <div class="logo">
+                   <a class="logo-name" href="./" >CRH</a>
+                </div>
+
+                <div class="container-flex" id="container-flex">
+                     
+                        <li><a class="a" href="./">Home</a></li>
+                        <li><a class="a" href="./portafolio.html">Portafolio</a></li>
+                        <li><a class="a" href="./certificados.html">Certificación</a></li>
+                        <li><a class="a" href="./contacto.html">Contacto</a></li>
+                        <li></li>
+                </div>
+                
+                <div class="burger-button" id="burger-button" onclick="showHide()" >
+                    <i class="icon-menu"></i>
+                </div>
+           
+        </nav>
+    </header>
+   <br>
+   <br>
+   <br><br>
+
+   <div class="title-general">
+        <h6 class="general">Proyectos hechos con lenguaje Php.</h6>
+   </div>
+
+   <div class="cntr-portafolio">
+       <div class="portafolio">
+           <img src="portafolio/ag_01.png" alt="" class="img-pro">
+           <div class="details-portafolio">
+                <h5 class="tile-portafolio">Agencia de viajes</h5>
+              
+                <p class="description-portafolio">
+                    El proyecto principalmente es para buscar 
+                    asientos del bus de un punto de salida a un punto de llegada
+                    para luego hacer una reserva del asiento con horas de anticipacón.
+                </p>
+                <div class="tecnolias">
+                 Tecnologías<br>
+                <i class="icon-checkbox mischecks" ></i> Php.
+                <i class="icon-checkbox mischecks" ></i> MySql.
+                <i class="icon-checkbox mischecks" ></i> JavaScript.
+                <i class="icon-checkbox mischecks" ></i> Ajax.
+                <i class="icon-checkbox mischecks" ></i> bootstrap.
+                </div>
+                <a class="ver-foto" id="agencia" onclick="mygalery(this.id)">Ver fotos</a>
+           </div>
+       </div>
+
+       <div class="portafolio">
+        <img src="portafolio/ha_01.png" alt="" class="img-pro">
+        <div class="details-portafolio">
+             <h5 class="tile-portafolio">Alquiler de habitación</h5>
+             <p class="description-portafolio">
+                El proyecto tiene la funcionalidad para buscar habitaciones disponibles,
+                filtrar por precio, tipo de habitación. Una vez que el cleinte tenga un usuario podrá alquilar
+                la habitación.
+             </p>
+             <div class="tecnolias">
+                Tecnologías<br> 
+                <i class="icon-checkbox mischecks" ></i> Php.
+                <i class="icon-checkbox mischecks" ></i> MySql.
+                <i class="icon-checkbox mischecks" ></i> JavaScript.
+                <i class="icon-checkbox mischecks" ></i> Ajax.
+                <i class="icon-checkbox mischecks" ></i> bootstrap.
+             </div>
+             <a class="ver-foto" id="alquiler" onclick="mygalery(this.id)">Ver fotos</a>
+        </div>
+    </div>
+    
+    <div class="portafolio">
+        <img src="portafolio/li_01.png" alt="" class="img-pro">
+        <div class="details-portafolio">
+             <h5 class="tile-portafolio">Biblioteca virtual</h5>
+             <p class="description-portafolio">
+                Este pequeño proyecto tiene la funcionalidad para buscar libros por editoriales, autores, títulos, temas, etc.
+             </p>
+             <div class="tecnolias">
+                Tecnologías<br> 
+                <i class="icon-checkbox mischecks" ></i> Php.
+                <i class="icon-checkbox mischecks" ></i> MySql.
+                <i class="icon-checkbox mischecks" ></i> Ajax.
+                <i class="icon-checkbox mischecks" ></i> bootstrap.
+             </div>
+             <a class="ver-foto" id="biblioteca" onclick="mygalery(this.id)">Ver fotos</a>
+        </div>
+    </div>
+
+   </div>
+
+
+   <div class="title-general">
+        <h6 class="generas">Proyectos de diseño web</h6>
+   </div>
+
+
+   <div class="cntr-video">
+       <div class="video">
+        <video src="video/Artista.mp4" width="1360" height="768" controls class="src-video"></video>
+        <h5 class="tile-portafolio">Álbum de Artista</h5>
+       </div>
+
+       <div class="video">
+            <video src="video/Ropadebano.mp4" width="1360" height="768" controls class="src-video"></video>
+            <h5 class="tile-portafolio">Ropa de baño femenina</h5>
+       </div> 
+       
+       <div class="video">
+            <video src="video/Studio.mp4" width="1360" height="768" controls class="src-video"></video>
+            <h5 class="tile-portafolio">Estudio de abogados (replica) </h5>
+       </div>
+   </div>
+   
+   <footer>
+    <div class="siguime">
+         <p>Sígueme en mis redes sociales</p>
+    </div>
+
+     <div class="contactos">
+             <div class="contact-cirlcle"> <a href="https://www.facebook.com/cristhianricardo.huayanayhuayanay.1"><i class="icon-facebook"></i> </a>  </div>
+             <div class="contact-cirlcle"> <a href="https://twitter.com/Ricardo03361575"><i class="icon-twitter"></i>  </a> </div>
+             <div class="contact-cirlcle"> <a href="https://github.com/CristianCRH?tab=repositories"><i class="icon-github"></i>   </a> </div>
+             <div class="contact-cirlcle"> <a href="https://www.linkedin.com/in/cristian-ricardo-huayanay-huayanay/"><i class="icon-linkedin"></i> </a>  </div>
+     </div>
+     <div class="copyr">
+             <p>Copyright © por Cristian Ricardo Huayanay 2019
+               
+             </p>
+     </div>
+</footer>    
+</body>
+</html>
