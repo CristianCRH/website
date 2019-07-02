@@ -73,6 +73,7 @@
 }
 body{
     background-color: rgba(0, 83, 92, 0.1);
+    font-family: 'Abel', sans-serif;
 }
 li,ul{
     list-style: none;
@@ -626,8 +627,12 @@ margin: 0em .7em;
     font-size: .7em;
 }
 .ver-foto{
-    color: rgb(0, 60, 255);
+    color:  rgb(44, 137, 150);
+    cursor: pointer;
     margin: 0em .7em ;
+    display:flex;
+    justify-content: center;
+    color: 
 }
 .video{
     width: 48%;
@@ -694,9 +699,7 @@ margin: 0em .7em;
         width: 16.3em;
       
         }
-    .slogan{
-        font-size: 1.8em;
-    }
+  
     .name{
         padding-top: 11em;
         font-size: 0.9em;
@@ -756,7 +759,7 @@ margin: 0em .7em;
       color: #fff;
       font-size: 0.5em;
       padding-left: 3em;
-      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-family: 'Abel', sans-serif;
       text-decoration-color: black;
     }
     
@@ -769,9 +772,7 @@ margin: 0em .7em;
         height:14.3em;
         width: 14.3em;
      }
-    .slogan{
-        font-size: 1.5em;
-    }
+ 
     .container-details{
         width: 80%;
     }
@@ -863,7 +864,7 @@ margin: 0em .7em;
     }
 
     .slogan{
-        font-size: 1.3em;
+        font-size: 1.9em;
     }
     .name{
         padding-top: 9em;
@@ -908,7 +909,7 @@ margin: 0em .7em;
         width: 10.3em;
     }
     .slogan{
-        font-size: 1.1em;
+        font-size: 1.7em;
     }
     .cntr-contacto{
         width: 95%;
@@ -936,9 +937,7 @@ margin: 0em .7em;
         height:10.3em;
         width: 10.3em;
     }
-    .slogan{
-        font-size: 1em;
-    }
+ 
     .name{
         padding-top: 8em;
         font-size: 0.6em;
@@ -982,7 +981,7 @@ margin: 0em .7em;
         width: 7.3em;
     }
     .slogan{
-        font-size: 1.1em;
+        font-size: 1.6em;
     }
     .name{
         padding-top: 7em;
@@ -1000,9 +999,15 @@ margin: 0em .7em;
         margin: 1em auto;
     }
     .myPhotoImg{
-        width: 58%;
+        width: 60%;
         height: 11.3em;
         background-size: 100% 100%;
     }
+    .description-portafolio,
+    .mischecks,
+    .tecnolias{
+      font-size: 0.9em;
+    }
+   
 }
 
