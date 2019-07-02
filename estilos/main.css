@@ -171,7 +171,7 @@ display: block;
     background-size:  200%;
     animation: movimiento 15s  infinite linear alternate;
     position: relative;
-  
+    margin-top: 2em;
 }
 
 @keyframes movimiento{
@@ -384,7 +384,7 @@ margin: 0.2em ;
     margin: auto;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 20px;
+    font-size: 1em;
  }
 .hijo-habilidad{
    margin-bottom: 1.2em;
@@ -712,7 +712,9 @@ margin: 0em .7em;
         width: 50%;
         height: 100%;
     }
-   
+   .container-portada{
+     margin-top: 1.2em;
+   }
 }
 @media screen and (max-width:768px){
     .nav{
@@ -843,7 +845,9 @@ margin: 0em .7em;
     .cntr-imagenes{
         width: 95%;
     }
-   
+    .container-portada{
+     margin-top: .9em;
+   }
 }
 @media screen and (max-width:610px){
     
@@ -985,12 +989,12 @@ margin: 0em .7em;
     }
     .name{
         padding-top: 7em;
-        font-size: 0.5em;
+        
     }
     .cntr-welcome{
         height: 2.5em;
         line-height: 2.5em;
-        font-size: 20px;
+        font-size: 2em;
     }
     .Perfil{
         font-size: 18px;
@@ -1009,5 +1013,6 @@ margin: 0em .7em;
       font-size: 0.9em;
     }
    
+  
 }
 
