@@ -795,7 +795,7 @@ margin: 0em .7em;
     }
     
     .myPhoto::before{
-        content: 'A cerca de mí';
+        content: 'A cerca de m ­';
         display: block;
         width: 100%;
         color:rgb(0, 0, 0);
