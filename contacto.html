@@ -9,7 +9,12 @@
     <link rel='stylesheet' type='text/css' media='screen' href='estilos/main.css'>
     <link rel="stylesheet" type="text/css" href="estilos/circle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-firestore.js"></script>
+
     <script src='js/main.js'></script>
+    <script src='js/validation.js'></script>
     <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
     <link rel="icon" href="./images/icon.ico">
 </head>
@@ -69,14 +74,15 @@
     <form action="./" >
     <div class="cntr-contacto">
 
-            <label class="label">Nombres:&nbsp</label><input class="myInput" type="text" placeholder="Cristian"><br>
-            <label class="label">Apellidos:</label><input class="myInput" type="text" placeholder="Apellidos"><br>
-            <label class="label">E-mail:&nbsp&nbsp&nbsp&nbsp&nbsp</label><input class="myInput" type="email" placeholder="cristian@gmail.com"><br>
-            <label class="label" >Mensaje</label><label class="label"> <textarea class="myInput ta" ></textarea><br>
+            <label class="label">Nombres:&nbsp</label><input class="myInput" type="text" id="namesf" onKeyPress="return soloLetras(event)" placeholder="Cristian" required><br>
+            <label class="label">Apellidos:</label><input class="myInput" type="text" id="surnamesf" onKeyPress="return soloLetras(event)" placeholder="Huayanay" required><br>
+            <label class="label">Teléfono:</label><input class="myInput" type="text" id="celphonef" onKeyPress="return soloNumeros(event)"  placeholder="985236598" maxlength="9"  required><br>
+            <label class="label">E-mail:&nbsp&nbsp&nbsp&nbsp&nbsp</label><input type="email" id="emailf" class="myInput"  placeholder="cristian@gmail.com" required><br>
+            <label class="label" >Mensaje</label><label class="label"> <textarea  id="messagef" class="myInput ta" required></textarea><br>
 
 
       
-            <input  type="submit" style="background-color: rgb(44, 137, 150);padding: 1em 2em; border-radius: 5px;border:1px solid #000;color:#fff;margin:0em 0em 1em 11em;">
+            <input  type="button" id="btn-enviar" value="Enviar" style="background-color: rgb(44, 137, 150);padding: 1em 2em; border-radius: 5px;border:1px solid #000;color:#fff;margin:0em 0em 1em 11em;cursor: pointer;">
         
        
     </div>
@@ -100,7 +106,7 @@
                 </p>
         </div>
    </footer>
-   
+   <script src="js/fireBase.js"></script>
       
 </body>
 </html>

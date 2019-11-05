@@ -16,3 +16,5 @@ function showHide(){
 function mygalery(id){
     location.href="./galeria.html?id="+id;
 }
+
+
